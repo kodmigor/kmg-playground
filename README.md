@@ -1,1 +1,1 @@
-# kmg-playground
+# linting
