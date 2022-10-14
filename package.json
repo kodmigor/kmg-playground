@@ -6,12 +6,12 @@
   "author": "Kotov Dmitriy <kmg.dev@mail.ru>",
   "license": "MIT",
   "scripts": {
-    "lint:es": "eslint --ext .js,.jsx,.ts,.tsx stands",
+    "lint:es": "eslint --ext .js,.jsx,.ts,.tsx src",
     "lint:es:fix": "npm run lint:es -- --fix",
-    "lint:css": "stylelint stands",
+    "lint:css": "stylelint src",
     "lint:css:fix": "npm run lint:css -- --fix",
-    "lint:prettier": "prettier -c stands",
-    "lint:prettier:fix": "prettier -w stands",
+    "lint:prettier": "prettier -c src",
+    "lint:prettier:fix": "prettier -w src",
     "prepare": "husky install"
   },
   "devDependencies": {
