@@ -10,6 +10,8 @@
     "lint:es:fix": "npm run lint:es -- --fix",
     "lint:css": "stylelint stands",
     "lint:css:fix": "npm run lint:css -- --fix",
+    "lint:prettier": "prettier -c stands",
+    "lint:prettier:fix": "prettier -w stands",
     "prepare": "husky install"
   },
   "devDependencies": {
