@@ -1,0 +1,12 @@
+extends:
+  - stylelint-config-standard-scss
+  - stylelint-config-clean-order
+  - stylelint-config-prettier
+plugins:
+  - stylelint-order
+rules:
+  no-empty-source:
+  declaration-empty-line-before:
+  no-missing-end-of-source-newline:
+  selector-class-pattern:
+  keyframes-name-pattern:

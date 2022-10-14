@@ -5,6 +5,13 @@
   "repository": "git@github.com:kodmigor/kmg-playground.git",
   "author": "Kotov Dmitriy <kmg.dev@mail.ru>",
   "license": "MIT",
+  "scripts": {
+    "lint:es": "eslint --ext .js,.jsx,.ts,.tsx stands",
+    "lint:es:fix": "npm run lint:es -- --fix",
+    "lint:css": "stylelint stands",
+    "lint:css:fix": "npm run lint:css -- --fix",
+    "prepare": "husky install"
+  },
   "devDependencies": {
     "@jambit/eslint-plugin-typed-redux-saga": "0.4.0",
     "@typescript-eslint/eslint-plugin": "5.0.0",
@@ -21,8 +28,15 @@
     "eslint-plugin-react": "7.31.10",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-typescript-sort-keys": "2.1.0",
+    "husky": "8.0.0",
+    "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "prettier-eslint": "15.0.1",
+    "stylelint": "14.13.0",
+    "stylelint-config-clean-order": "1.0.0",
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-standard": "28.0.0",
+    "stylelint-config-standard-scss": "5.0.0",
     "typescript": "4.8.4"
   },
   "config": {
