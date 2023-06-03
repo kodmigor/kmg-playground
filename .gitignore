@@ -1,21 +1,24 @@
-# OS or Editor folders
-.DS_Store
-Thumbs.db
-.vscode
-.idea
-# NPM packages folder.
-node_modules/
-# Webpack output folder.
-dist/
-# Temporary files folder.
-/tmp/
-__snapshots__
-.eslintcache
-# Numerous always-ignore extensions
+# Logs
+logs
 *.log
-# Other
-*.other
-/coverage/
-# Environment variables
-*.env
-!sample.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
